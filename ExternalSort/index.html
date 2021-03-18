@@ -1,0 +1,38 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="app">
+      <div style="display: flex">
+        <textarea v-model="inputArrStr" cols="50" rows="3"></textarea>
+        <div>
+          <div>
+            Run size:
+            <input type="number" v-model="run_size" />
+          </div>
+          <div>
+            <p>Input array: {{inputArr}}</p>
+            <button v-on:click="split">Split to chunk</button>
+            <button v-on:click="sortSplitArr" :disabled="splitArr.length==0">
+              Sort chunk
+            </button>
+            <button v-on:click="run" :disabled="!sorted">Run step</button>
+          </div>
+        </div>
+      </div>
+      <div v-for="(a,index) in splitArr" v-key="index">
+        Split {{index}}: {{a}}
+      </div>
+      <div v-show="splitM!=-1">
+        Move {{splitMV}} from {{'Split '+splitM}} to OutputArr
+      </div>
+      <div>OutputArr: {{outputArr}}</div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
