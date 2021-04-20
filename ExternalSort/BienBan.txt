@@ -1,0 +1,68 @@
+Biên bản Thuyết trình
+Bắt đầu cuộc họp:
+
+Sắp xếp ngoại là gì:
+Hỏi: Có bạn nào tìm hiểu sắp xếp ngoại không
+-(Trừ) Cả lớp không chuẩn bài về nhà
+______
+Tại sao phải Sắp xếp ngoại?
+______
+So sánh sắp xếp ngoại và sắp xếp nội
+______
+Phương pháp sắp xếp ngoại: External merge sort
+	Ý tưởng
+	ví dụ:
+	kỹ thuật k-way merging
+______
+Mục tiêu sắp xếp ngoại:
+______
+Các phương pháp Trộn:
+Phương pháp trộn run:
+	Khái niệm Run
+	Thuật toán tổng quát phương pháp trộn Run
+	Ví dụ Cách thức trộn run
+	Đánh giá
+______
+Phương pháp trộn tự nhiên:
+	Đặc điểm phương pháp
+	Thuật toán tổng quát
+	Ví dụ cách thức hoạt động
+	Đánh giá
+______
+Phương pháp trộn đa lối cân bằng
+	Đặc điểm phương pháp
+	Thuật toán tổng quát
+	Ví dụ cách thức hoạt động
+______
+Phương pháp trộn đa pha
+	xét ví dụ tổng quát
+	Ví dụ cách thức hoạt động
+______
+Demo phương pháp External Merge Sort
+Không biết còn bạn nào còn hỏi cho nhóm không
+
+
+Hỏi:Mở lại file số 15, Tại sao ta trộn được f0 ra f1 và f2?
+Hỏi:Tới slide 16, Trật tự màu xanh và màu đỏ khác với slide trược??
+
+Slide 15:
+Đeo kính
+HỎI: m là mình chọn phải không?
+TRẢ LỜI: m ban đầu bằng 1
+
+Nhóm 3 hỏi: vậy f1, f2 là run phải không ?
+TRẢ LỜI: không, f1, f2 là file lưu trữ
+TRẢ LỜI: Giải thích sự khác nhau giữa trộn run và trộn tự nhiên
+
+Nhóm anh đeo kính:
+HỎI: Không biết sắp xếp ngoại có hoạt động trên các cấu trúc dữ liệu khác được không
+TRẢ LỜI: Được
+
+Nhóm 4 hỏi: Dùng trên Stack, hay Queue hay list Được không
+TRẢ lỜI: Các cấu trúc nào sử dụng được Merge Sort
+
+Nhóm anh đeo kính:
+HỎI: Sắp xếp ngoại chỉ sử dụng khi dữ liệu quá lớn so với RAM
+TRẢ LỜI: đúng 
+______
+Phần Quizz trả lời câu hỏi
