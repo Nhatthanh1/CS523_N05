@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 Danh sách câu hỏi
 +: là Đáp án đúng
@@ -84,3 +85,91 @@ Câu 13: Trong các phương pháp trộn thì phương pháp nào tốn dung l�
 -Trộn tự nhiên
 +Trộn đa lối cân bằng
 -Trộn đa pha
+=======
+
+Danh sách câu hỏi
++: là Đáp án đúng
+-: là Đáp án sai
+________
+
+Câu 1: Các tệp con nhỏ được sắp xếp gọi là:
++Run
+-Folders
+-Blocks
+-Indexes
+
+Câu 2: Thuật toán sắp xếp ngoài là gì ?
++Thuật toán sử dụng các thao tác sắp xếp thứ tự trên tệp tin
+-Thuật toán sử dụng bộ nhớ trong để sắp xếp
+-Thuật toán dựa trên phương pháp hoán vị
+-Thuật toán được coi là "in place" (tại chỗ)
+
+Câu 3: Các thuật toán sắp xếp ngoại được phát triển với mục đích chính để:
+-Sắp xếp các records trong files
+-Sắp xếp các records trong nhiều file
++Sắp xếp các bản ghi trong các file lớn
+-Sắp xếp dữ liệu nhanh hơn
+
+Câu 4: Bộ nhớ ngoài (Secondary memory) trong phần sắp xếp ngoại là:
+-Bộ nhớ đệm (Cache memory)
+-RAM
++Ổ đĩa cứng, đĩa mềm, cd, ..
+-Block
+
+Câu 5: Phương pháp sắp xếp nội nào áp dụng vào sắp xếp ngoại được ?
+-Quick Sort
+-Insertion Sort
++Merge Sort
+-Bubble Sort
+
+Câu 6: 
+	Sử dụng phương pháp trộn Run có: f0: 3, 1, 99, 35, 67, 29, 11, 150, 33, 206
+	Qua lận trộn đầu tiên:			 f1: 3, 99, 67, 11, 33
+	Thì file f2 là:
+-	1, 99, 35, 29, 150, 206
+-	1, 35, 29, 11
+-	3, 35, 29, 11, 206
++	1, 35, 29, 150, 206
+
+Câu 7: Độ phức tạp của thuật toán Merge Sort:
+-O(n)
+-O(log2(n))
+-O(n^2)
++O(nlog2(n))
+
+Câu 8: Trong phương pháp trộn đa lối cân bằng thì khi nào ta dừng việc chia dữ liệu lại ?
++Khi số run còn 1
+-Khi có một file rỗng
+-Khi không còn run nào
+-Khi tất cả file đều có run
+
+Câu 9: Điểm cải tiến của trộn tự nhiên so với trộn Run là:
+-Chỉ có giai đoạn phân phối
++Tận dụng chiều dài "tự nhiên" của Run ban đầu
+-Phân phối tuần tự các phần tử cho các file đệm
+-Chỉ có giai đoạn trộn
+
+Câu 10:Việc tạo ra run mới từ 2 run ban đầu ta gọi là:
+-Sắp xếp
++Trộn
+-Chia
+-Xóa
+
+Câu 11: Trong External Merge Sort, với bộ dữ liệu 550GB mà chỉ còn trống 2GB RAM thì trên lý thuyết ta cần chia dữ liệu ra ít nhất bao nhiêu lần ?
++275
+-225
+-550
+-2
+
+Câu 12: Trong phương pháp trộn trực tiếp (trộn Run) thì ta cần tối thiểu bao nhiêu bước để sắp xếp xong được?
++log2(n)
+-n
+-n^2
+-nlog2(n)
+
+Câu 13: Trong các phương pháp trộn thì phương pháp nào tốn dung lượng nhất
+-Trộn trực tiếp (trộn Run)
+-Trộn tự nhiên
++Trộn đa lối cân bằng
+-Trộn đa pha
+>>>>>>> eaf68d5e4529b95fc6cae53bb965130f51bd37ee
