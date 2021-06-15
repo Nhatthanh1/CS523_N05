@@ -1,5 +1,5 @@
 # <div align="center">HƯỚNG DẪN SỬ DỤNG</div>
-![Đây là tấm ảnh](đây là đường link tấm ảnh)
+![Đây là tấm ảnh](https://raw.githubusercontent.com/Nhatthanh1/CS523_N05/Main/img/Picture1.png)
 
 - Đây là giao diện của [demo](https://nhatthanh1.github.io/CS523_N05/ExternalSort/
 )
